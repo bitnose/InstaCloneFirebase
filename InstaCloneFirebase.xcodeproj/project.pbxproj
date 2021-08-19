@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		DD93B5FC26CE6D070060C220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD93B5FB26CE6D070060C220 /* Assets.xcassets */; };
 		DD93B5FF26CE6D070060C220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD93B5FD26CE6D070060C220 /* LaunchScreen.storyboard */; };
 		DD93B60826CE6F6B0060C220 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD93B60726CE6F6B0060C220 /* GoogleService-Info.plist */; };
+		DDC427A726CE7AD7003841E0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC427A626CE7AD7003841E0 /* FeedViewController.swift */; };
+		DDC427AA26CE7AE7003841E0 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC427A926CE7AE7003841E0 /* UploadViewController.swift */; };
+		DDC427AD26CE7AFC003841E0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC427AC26CE7AFC003841E0 /* SettingsViewController.swift */; };
 		EF8B041D5095E6BFA1264C1D /* Pods_InstaCloneFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001AE5F0E745A8764EBA2A25 /* Pods_InstaCloneFirebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,9 @@
 		DD93B5FE26CE6D070060C220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD93B60026CE6D070060C220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD93B60726CE6F6B0060C220 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDC427A626CE7AD7003841E0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DDC427A926CE7AE7003841E0 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		DDC427AC26CE7AFC003841E0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E7F13F991F19939EAEA072A5 /* Pods-InstaCloneFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneFirebase.release.xcconfig"; path = "Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +64,6 @@
 				5D3F1725B0772683935D3D1F /* Pods-InstaCloneFirebase.debug.xcconfig */,
 				E7F13F991F19939EAEA072A5 /* Pods-InstaCloneFirebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +91,9 @@
 				DD93B5F226CE6D050060C220 /* AppDelegate.swift */,
 				DD93B5F426CE6D050060C220 /* SceneDelegate.swift */,
 				DD93B5F626CE6D050060C220 /* ViewController.swift */,
+				DDC427A626CE7AD7003841E0 /* FeedViewController.swift */,
+				DDC427A926CE7AE7003841E0 /* UploadViewController.swift */,
+				DDC427AC26CE7AFC003841E0 /* SettingsViewController.swift */,
 				DD93B5F826CE6D050060C220 /* Main.storyboard */,
 				DD93B5FB26CE6D070060C220 /* Assets.xcassets */,
 				DD93B5FD26CE6D070060C220 /* LaunchScreen.storyboard */,
@@ -211,8 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD93B5F726CE6D050060C220 /* ViewController.swift in Sources */,
+				DDC427AA26CE7AE7003841E0 /* UploadViewController.swift in Sources */,
 				DD93B5F326CE6D050060C220 /* AppDelegate.swift in Sources */,
+				DDC427A726CE7AD7003841E0 /* FeedViewController.swift in Sources */,
 				DD93B5F526CE6D050060C220 /* SceneDelegate.swift in Sources */,
+				DDC427AD26CE7AFC003841E0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
